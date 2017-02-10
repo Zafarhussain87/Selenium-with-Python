@@ -1,0 +1,19 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51193/session {"desiredCapabilities": {"version": "", "browserName": "firefox", "marionette": true, "platform": "ANY", "javascriptEnabled": true}, "requiredCapabilities": {}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:The Browser started. 
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51193/session/3cb8cfca-4c10-4911-a44f-a9874b47fc08/url {"url": "http://www.ksrtc.in/", "sessionId": "3cb8cfca-4c10-4911-a44f-a9874b47fc08"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Application launched
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51193/session/3cb8cfca-4c10-4911-a44f-a9874b47fc08/element {"value": "//*[@id='searchBtn']", "sessionId": "3cb8cfca-4c10-4911-a44f-a9874b47fc08", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51193/session/3cb8cfca-4c10-4911-a44f-a9874b47fc08/element/7d5428cd-abb3-496f-b7b4-ed1dc681e8a2/click {"sessionId": "3cb8cfca-4c10-4911-a44f-a9874b47fc08", "id": "7d5428cd-abb3-496f-b7b4-ed1dc681e8a2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Search button clicked
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:51193/session/3cb8cfca-4c10-4911-a44f-a9874b47fc08/alert_text {"sessionId": "3cb8cfca-4c10-4911-a44f-a9874b47fc08"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Printing mesage
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:51193/session/3cb8cfca-4c10-4911-a44f-a9874b47fc08/accept_alert {"sessionId": "3cb8cfca-4c10-4911-a44f-a9874b47fc08"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:Alert is accepted
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:51193/session/3cb8cfca-4c10-4911-a44f-a9874b47fc08 {"sessionId": "3cb8cfca-4c10-4911-a44f-a9874b47fc08"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
